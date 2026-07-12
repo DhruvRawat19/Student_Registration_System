@@ -1,0 +1,231 @@
+/* abc.css */
+
+body{
+
+    margin:0px;
+
+    font-family:Arial;
+
+    background-image:url('bg.png');
+
+    background-size:cover;
+
+    background-repeat:no-repeat;
+
+    background-position:center;
+
+    background-attachment:fixed;
+}
+
+/* ========================= */
+/* NAVBAR */
+/* ========================= */
+
+#mymenu{
+
+    background:rgba(10,6,35,0.88);
+
+    border-bottom:1px solid rgba(126,104,237,0.25);
+
+    box-shadow:0 0 12px rgba(126,104,237,0.15);
+
+    text-align:center;
+}
+
+#mymenu ul{
+
+    margin:0px;
+
+    padding:0px;
+}
+
+#mymenu ul li{
+
+    display:inline-block;
+
+    list-style:none;
+
+    padding:12px 16px;
+}
+
+#mymenu ul li a{
+
+    text-decoration:none;
+
+    color:#cbb8ff;
+
+    font-size:13px;
+
+    font-weight:bold;
+
+    transition:0.3s;
+}
+
+#mymenu ul li a:hover{
+
+    color:#9d86ff;
+
+    text-shadow:0 0 8px #9d86ff;
+}
+
+/* ========================= */
+/* MAIN AREA */
+/* ========================= */
+
+#mydata{
+
+    margin-top:50px;
+}
+
+/* ========================= */
+/* FORM TABLE */
+/* ========================= */
+
+#formtable{
+
+    margin:auto;
+
+    background:rgba(7,5,25,0.55);
+
+    padding:18px;
+
+    border-radius:8px;
+
+    box-shadow:0 0 15px rgba(126,104,237,0.35);
+
+    border:1px solid rgba(126,104,237,0.18);
+
+    border-collapse:separate;
+
+    backdrop-filter:blur(4px);
+}
+
+#formtable td{
+
+    padding:14px;
+
+    color:white;
+
+    font-size:15px;
+
+    font-weight:bold;
+
+    border:none;
+
+    text-align:center;
+}
+
+/* ========================= */
+/* COMPACT SHOW TABLE */
+/* ========================= */
+
+#showtable{
+
+    width:720px;
+
+    margin:auto;
+
+    border-collapse:collapse;
+
+    background:rgba(7,5,25,0.55);
+
+    border-radius:8px;
+
+    overflow:hidden;
+
+    box-shadow:
+        0 0 12px #7a68ee,
+        0 0 20px rgba(126,104,237,0.30);
+
+    backdrop-filter:blur(4px);
+}
+
+#showtable th{
+
+    padding:10px;
+
+    color:#d7c8ff;
+
+    font-size:13px;
+
+    font-weight:bold;
+
+    background:rgba(30,18,70,0.45);
+
+    border:1px solid rgba(126,104,237,0.10);
+}
+
+#showtable td{
+
+    padding:8px;
+
+    color:white;
+
+    font-size:12px;
+
+    font-weight:bold;
+
+    text-align:center;
+
+    border:1px solid rgba(126,104,237,0.10);
+}
+
+/* ========================= */
+/* INPUT BOX */
+/* ========================= */
+
+#A{
+
+    width:180px;
+
+    height:24px;
+
+    border:none;
+
+    outline:none;
+
+    border-radius:15px;
+
+    padding-left:10px;
+
+    font-size:11px;
+
+    background:white;
+}
+
+/* ========================= */
+/* BUTTON */
+/* ========================= */
+
+.B{
+
+    background:linear-gradient(45deg,#5642c5,#7a68ee);
+
+    color:white;
+
+    border:none;
+
+    width:70px;
+
+    height:26px;
+
+    border-radius:2px;
+
+    font-size:11px;
+
+    cursor:pointer;
+}
+
+.B:hover{
+
+    box-shadow:0 0 10px #7a68ee;
+}
+
+/* ========================= */
+/* CENTER */
+/* ========================= */
+
+center{
+
+    margin-top:20px;
+}
